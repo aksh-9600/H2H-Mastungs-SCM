@@ -46,9 +46,9 @@ It answers the most critical business question:
 ## 📸 App Preview
 
 <p align="center">
-  <img src="insightflow images/grid.jpeg" width="35%" />
+  <img src="insightflow images/grid.jpeg" width="30%" />
   <img src="insightflow images/action.jpeg" width="30%" />
-  <img src="insightflow images/analytics.jpeg" width="35%" />
+  <img src="insightflow images/analytics.jpeg" width="30%" />
 </p>
 
 <p align="center">
