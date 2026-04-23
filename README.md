@@ -43,6 +43,21 @@ It answers the most critical business question:
 > ❝ Which customers are at risk, why, and what action should we take? ❞
 
 ---
+## 📸 App Preview
+
+<p align="center">
+  <img src="assets/grid.jpg" width="30%" />
+  <img src="assets/actions.jpg" width="30%" />
+  <img src="assets/analytics.jpg" width="30%" />
+</p>
+
+<p align="center">
+  <b>Intelligence Grid</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Action Center</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Analytics Dashboard</b>
+</p>
+
+---
 
 ## 🧠 Key Innovation
 
