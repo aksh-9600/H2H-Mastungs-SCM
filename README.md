@@ -46,14 +46,14 @@ It answers the most critical business question:
 ## 📸 App Preview
 
 <p align="center">
-  <img src="assets/grid.jpg" width="30%" />
-  <img src="assets/actions.jpg" width="30%" />
-  <img src="assets/analytics.jpg" width="30%" />
+  <img src="insightflow images/grid.jpg" width="30%" />
+  <img src="insightflow images/action.jpg" width="30%" />
+  <img src="insightflow images/analytics.jpg" width="30%" />
 </p>
 
 <p align="center">
-  <b>Intelligence Grid</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Action Center</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Intelligence Grid</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Action Center</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>Analytics Dashboard</b>
 </p>
 
