@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+scikit-learn
+faker
+langchain
+langchain-google-genai
+langchain-community
+sqlalchemy
+pandas
+numpy
+python-multipart

@@ -1,0 +1,23 @@
+# Implementation Walkthrough: Document Upload & AI Chatbot
+
+We've successfully added the ability to upload a sample document to populate the Intelligence Grid and introduced an AI Chatbot for user interaction.
+
+## What Was Added
+
+### 1. Document Upload Feature
+- **Sample Document**: We created a `sample_customers.csv` file inside the project workspace that contains 10 rows of mock customer data (e.g., support tickets, outages experienced, usage hours).
+- **Upload Button**: A new "Upload Document" button has been added to the header of the `Insight-Flow` dashboard (`index.html`).
+- **Data Ingestion (`/api/upload`)**: When a CSV is uploaded, the backend reads it, calculates predictive risk scores and churn status based on the provided columns, generates proactive action cards, and inserts the data into the main `insight_flow.db` database. 
+- **Real-time Refresh**: The frontend (`app.js`) automatically refreshes the dashboard to reflect the newly uploaded data.
+
+### 2. AI Chatbot
+- **Chatbot Interface**: A floating AI Assistant button was added to the bottom-right corner of the interface. Clicking it toggles a sleek chat window.
+- **AI Processing (`/api/chat`)**: When a user asks a doubt, the backend uses the `GEMINI_API_KEY` with Google's `gemini-2.5-flash` model to act as an assistant, explaining features and answering questions contextually.
+
+## Verification
+You can now run the application (`python main.py` or start the server via Uvicorn). 
+1. Click the **Upload Document** button and select the `sample_customers.csv` file from your project folder. You'll see the Intelligence Grid populate with the new data.
+2. Click the floating **AI Assistant** button in the bottom right corner and try asking a question like *"How does the health score work?"*. The chatbot will respond dynamically!
+
+> [!IMPORTANT]
+> Ensure you have your `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) set as an environment variable in your terminal before running the server so the chatbot and NLQ features work correctly!
